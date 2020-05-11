@@ -95,7 +95,7 @@ def bfs(root):
 
 			if child not in queue:
 				queue.append(child)
-
+#Main class start..
 def main():
 	initial_state = State([3,3],0,[0,0])
 	state = bfs(initial_state)
